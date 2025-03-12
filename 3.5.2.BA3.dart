@@ -61,8 +61,7 @@ void printNumberTypes(List<int> numbers) {
 void printDistribution(List<int> numbers) {
   int numberCheck = 0;
   int numberCheckCounter = 0;
-  int loopCounter = 0;  
-  for (int i = loopCounter; i < numbers.length; i = loopCounter){
+  for (int i = 0; i < numbers.length; i++){
     numberCheck = numbers[i];
       for (int i = 0; i < numbers.length; i++){
         if (numberCheck == numbers[i]) {
@@ -74,7 +73,6 @@ void printDistribution(List<int> numbers) {
      }
       print('The number $numberCheck appears $numberCheckCounter times in the list');
       numberCheckCounter = 0;
-      loopCounter++;
       
   }
 }
