@@ -66,7 +66,7 @@ void printDistribution(List<int> numbers) {
   
   for (int i = loopCounter; i < numbers.length; i = loopCounter){
     numberCheck = numbers[i];
-      for (int x = 0; i < numbers.length; i++){
+      for (int i = 0; i < numbers.length; i++){
         if (numberCheck == numbers[i]) {
         numberCheckCounter++;
           if (numberCheckCounter >= 2) {
