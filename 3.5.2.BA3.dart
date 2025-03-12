@@ -18,9 +18,9 @@ int smallestPosition = 0;
       smallestPosition = numbers.indexOf(numbers[i]);
     }
   }
-  print('The biggest number on the list is $biggestNumber');
+  print('The biggest number in the list is $biggestNumber');
   print('The position of the biggest number on the list is ${biggestPosition + 1}');
-  print('The smallest number on the list is $smallestNumber');
+  print('The smallest number in the list is $smallestNumber');
   print('The position of the smallest number on the list is ${smallestPosition + 1}');
 }
 
@@ -61,8 +61,7 @@ void printNumberTypes(List<int> numbers) {
 void printDistribution(List<int> numbers) {
   int numberCheck = 0;
   int numberCheckCounter = 0;
-  int loopCounter = 0;
-  
+  int loopCounter = 0;  
   for (int i = loopCounter; i < numbers.length; i = loopCounter){
     numberCheck = numbers[i];
       for (int i = 0; i < numbers.length; i++){
